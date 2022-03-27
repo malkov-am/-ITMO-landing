@@ -1,5 +1,6 @@
 # ITMO-landing
-Лендинг для лаборатории ИТМО
+Лендинг для лаборатории ИТМО.
+
 Состав команды:
 - [klimetzc](https://github.com/klimetzc)
 - [AlexandrMachilov](https://github.com/AlexandrMachilov)
