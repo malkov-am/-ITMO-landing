@@ -1,0 +1,19 @@
+.header {
+  height: 412px;
+  position: relative;
+  padding: 30px 0 0 16px;
+}
+
+.header::before {
+  content: '';
+  background-image: url(../../images/header-background.jpg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: scale-down;
+  background-position: right top;
+  background-size: cover;
+  transform: scale(-1, 1);
+}
