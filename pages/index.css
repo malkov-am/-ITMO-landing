@@ -1,0 +1,21 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/__title/header__subtitle.css);
+
+@import url(../blocks/header/__subtitle/header__title.css);
+
+@import url(../blocks/header/__span-accent/header__span-accent.css);
+
+@import url(../blocks/header/__button/header__button.css);
+
+@import url(../blocks/menu-bar/__burger-btn/menu-bar__burger-btn.css);
+
+@import url(../blocks/menu-bar/__logo/menu-bar__logo.css);
+
+@import url(../blocks/menu-bar/menu-bar.css);
