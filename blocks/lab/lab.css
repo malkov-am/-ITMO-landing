@@ -1,0 +1,8 @@
+.lab {
+  color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px;
+  background-color: var(--light-blue);
+}
