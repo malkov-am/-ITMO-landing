@@ -1,4 +1,5 @@
 .menu-bar__burgernav-link {
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,4 +15,10 @@
 
 .menu-bar__burgernav-link:hover {
   background-color: var(--blue);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-bar__burgernav-link {
+    padding-left: 40px;
+  }
 }
