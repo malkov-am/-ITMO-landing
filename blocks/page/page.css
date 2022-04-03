@@ -13,7 +13,3 @@
   background-color: var(--blue);
   font-family: 'Open Sans', 'Arial', sans-serif;
 }
-
-html {
-  scroll-behavior: smooth;
-}
