@@ -22,6 +22,21 @@
 @import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__about-subtitle/header__about-subtitle.css);
 @import url(../blocks/header/__about-title/header__about-title.css);
+
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__button-back/about__button-back.css);
+@import url(../blocks/about/__news/about__news.css);
+@import url(../blocks/about/__news-block/about__news-block.css);
+@import url(../blocks/about/__news-item/about__news-item.css);
+@import url(../blocks/about/__news-date/about__news-date.css);
+@import url(../blocks/about/__news-header/about__news-header.css);
+@import url(../blocks/about/__news-pin/about__news-pin.css);
+@import url(../blocks/about/__news-text/about__news-text.css);
+@import url(../blocks/about/__button-forward/about__button-forward.css)
+  
 /* research lab */
 @import url(../blocks/lab/lab.css);
 @import url(../blocks/lab/__about/lab__about.css);
@@ -33,12 +48,10 @@
 @import url(../blocks/lab/__images/lab__images.css);
 /* lab-card */
 @import url(../blocks/lab-card/lab-card.css);
-@import url(../blocks/lab-card/__about/lab-card__about.css);
-@import url(../blocks/lab-card/__button/lab-card__button.css);
-@import url(../blocks/lab-card/__header/lab-card__header.css);
-@import url(../blocks/lab-card/__icon/lab-card__icon.css);
-@import url(../blocks/lab-card/__gradient/lab-card__gradient.css);
-/* lab-card-popup */
+@import url(../blocks/lab-card/lab-card__about/lab-card__about.css);
+@import url(../blocks/lab-card/lab-card__button/lab-card__button.css);
+@import url(../blocks/lab-card/lab-card__header/lab-card__header.css);
+@import url(../blocks/lab-card/lab-card__icon/lab-card__icon.css);
 @import url(../blocks/lab-card-popup/lab-card-popup.css);
 @import url(../blocks/lab-card-popup/__header/lab-card-popup__header.css);
 @import url(../blocks/lab-card-popup/__list/lab-card-popup__list.css);
