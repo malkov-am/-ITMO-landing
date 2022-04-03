@@ -7,10 +7,18 @@
   width: 24px;
   height: 24px;
   border: none;
-  transition: opacity 0.3s linear;
   cursor: pointer;
 }
 
-.menu-bar__burger-btn:hover {
-  opacity: 0.8;
+@media screen and (min-width: 768px) {
+  .menu-bar__burger-btn {
+    top: 18px;
+    left: 39px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu-bar__burger-btn {
+    display: none;
+  }
 }
