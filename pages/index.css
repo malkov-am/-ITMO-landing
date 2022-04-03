@@ -8,6 +8,10 @@
 @import url(../blocks/menu-bar/menu-bar.css);
 @import url(../blocks/menu-bar/__nav-link/menu-bar__nav-link.css);
 @import url(../blocks/menu-bar/__nav/menu-bar__nav.css);
+@import url(../blocks/menu-bar/__burgernav-link/menu-bar__burgernav-link.css);
+@import url(../blocks/menu-bar/__burgernav/menu-bar__burgernav.css);
+@import url(../blocks/menu-bar/__burger-btn/_opened/menu-bar__burger-btn_opened.css);
+@import url(../blocks/menu-bar/__burgernav/_opened/menu-bar__burgernav_opened.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
