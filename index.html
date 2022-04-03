@@ -7,7 +7,6 @@
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>Industrial AI research lab</title>
   </head>
-
   <body class="page">
     <div class="menu-bar">
       <button class="menu-bar__burger-btn"></button>
@@ -53,11 +52,19 @@
     <section class="lab" id="lab">
       <h2 class="lab__header">industrial ai research lab</h2>
       <div class="lab__about">
-        <img
-          src="images/lab-page.png"
-          alt="Мужчина за компьютером"
-          class="lab__welcome-image"
-        />
+        <div class="lab__images">
+          <img
+            src="images/lab-page.png"
+            alt="Мужчина за компьютером"
+            class="lab__welcome-image"
+          />
+          <img
+            src="images/lab-page2.png"
+            alt="Мужчина за компьютером"
+            class="lab__welcome-image"
+          />
+        </div>
+
         <div class="lab__texts">
           <p class="lab__paragraph">
             Центр национальной технологической инициативы (НТИ), получивший
@@ -71,62 +78,113 @@
             удовлетворения потребностей наших клиентов.
           </p>
         </div>
-        <div class="lab__cards">
-          <article class="lab-card">
-            <h3 class="lab-card__header">Анализ социальных данных</h3>
-            <img
-              src="images/lab-card/lab-card_1.svg"
-              alt="#"
-              class="lab-card__icon"
-            />
-            <p class="lab-card__about">
-              Направление включает в себя исследования и разработки технологий
-              МО и КТ
-            </p>
-            <button class="lab-card__button">Подробнее</button>
-          </article>
-          <article class="lab-card">
-            <h3 class="lab-card__header">Инфраструктура больших данных</h3>
-            <img
-              src="images/lab-card/lab-card_2.svg"
-              alt="#"
-              class="lab-card__icon"
-            />
-            <p class="lab-card__about">
-              Направление включает в себя исследования и разработки технологий
-              МО и КТ
-            </p>
-            <button class="lab-card__button">Подробнее</button>
-          </article>
-          <article class="lab-card">
-            <h3 class="lab-card__header">Облачные вычисления</h3>
-            <img
-              src="images/lab-card/lab-card_3.svg"
-              alt="#"
-              class="lab-card__icon"
-            />
-            <p class="lab-card__about">
-              Направление включает в себя исследования и разработки технологий
-              МО и КТ
-            </p>
-            <button class="lab-card__button">Подробнее</button>
-          </article>
-          <article class="lab-card">
-            <h3 class="lab-card__header">QA истемы</h3>
-            <img
-              src="images/lab-card/lab-card_4.svg"
-              alt="#"
-              class="lab-card__icon"
-            />
-            <p class="lab-card__about">
-              Направление включает в себя исследования и разработки технологий
-              МО и КТ
-            </p>
-            <button class="lab-card__button">Подробнее</button>
-          </article>
-        </div>
+      </div>
+      <div class="lab__cards">
+        <article class="lab-card">
+          <div class="lab-card__gradient"></div>
+          <h3 class="lab-card__header">Анализ социальных <br />данных</h3>
+          <img
+            src="images/lab-card/lab-card_1.svg"
+            alt="#"
+            class="lab-card__icon"
+          />
+          <p class="lab-card__about">
+            Направление включает в себя исследования и разработки технологий МО
+            и КТ
+          </p>
+          <button class="lab-card__button">Подробнее</button>
+        </article>
+        <article class="lab-card">
+          <div class="lab-card__gradient"></div>
+          <h3 class="lab-card__header">Инфраструктура <br />больших данных</h3>
+          <img
+            src="images/lab-card/lab-card_2.svg"
+            alt="#"
+            class="lab-card__icon"
+          />
+          <p class="lab-card__about">
+            Направление включает в себя исследования и разработки технологий МО
+            и КТ
+          </p>
+          <button class="lab-card__button">Подробнее</button>
+        </article>
+        <article class="lab-card">
+          <div class="lab-card__gradient"></div>
+          <h3 class="lab-card__header">Облачные <br />вычисления</h3>
+          <img
+            src="images/lab-card/lab-card_3.svg"
+            alt="#"
+            class="lab-card__icon"
+          />
+          <p class="lab-card__about">
+            Направление включает в себя исследования и разработки технологий МО
+            и КТ
+          </p>
+          <button class="lab-card__button">Подробнее</button>
+        </article>
+        <article class="lab-card">
+          <div class="lab-card__gradient"></div>
+          <h3 class="lab-card__header">QA <br />системы</h3>
+          <img
+            src="images/lab-card/lab-card_4.svg"
+            alt="#"
+            class="lab-card__icon"
+          />
+          <p class="lab-card__about">
+            Направление включает в себя исследования и разработки технологий МО
+            и КТ
+          </p>
+          <button class="lab-card__button">Подробнее</button>
+        </article>
       </div>
     </section>
+
+    <!-- POPUP -->
+    <div class="lab-card-popup">
+      <div class="lab-card-popup__window">
+        <div class="lab-card-popup__image"></div>
+        <button class="lab-card-popup__cross"></button>
+        <div class="lab-card-popup__header">Header</div>
+        <div class="lab-card-popup__texts">
+          <p class="lab-card-popup__paragraph">
+            Учебные лаборатории оснащены современным компьютерным оборудованием,
+            техническими средствами защиты информации, программными и
+            программно-аппаратными комплексами средств защиты, разработанными
+            ведущими производителями: Positive Technologies, Infotecs,
+            SearchInform, «Лаборатория ППШ» и других вендоров. Некоторые из
+            лабораторных установок являются уникальными по своим
+            исследовательским задачам.
+          </p>
+          <p class="lab-card-popup__paragraph">
+            Начиная с первого курса бакалавриата, студенты погружаются в область
+            их будущей профессиональной деятельности, активно развивают навыки
+            программирования, исследования защищенности информации в
+            независимости от формы ее представления, проектирования комплексных
+            интегрированных систем защиты информации, проходят различные виды
+            практик.
+          </p>
+          <ul class="lab-card-popup__list">
+            В состав факультета входит ряд научных лабораторий и центров, в
+            которых проводятся исследования:
+            <li>безопасные киберфизические системы;</li>
+            <li>разработка средств защиты информации;</li>
+            <li>
+              функциональная безопасность беспилотных транспортных средств;
+            </li>
+            <li>теория информации и кодирования;</li>
+            <li>
+              информационные процессы в Интернет и безопасность виртуального
+              пространства;
+            </li>
+            <li>
+              интеллектуальные защищенные системы мультиагентного взаимодействия
+              и пр.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./src/researchlab.js"></script>
     <script src="./src/menu-bar.js"></script>
   </body>
 </html>
