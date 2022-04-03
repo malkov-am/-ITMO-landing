@@ -1,7 +1,6 @@
 .header {
-  height: 412px;
   position: relative;
-  padding: 30px 0 0 16px;
+  padding: 30px 16px 0 16px;
 }
 
 .header::before {
@@ -16,4 +15,22 @@
   background-position: right top;
   background-size: cover;
   transform: scale(-1, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 58px 39px 0 39px;
+    min-height: 648px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header::before {
+    transform: none;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
