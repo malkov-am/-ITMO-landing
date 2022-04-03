@@ -21,3 +21,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./OpenSans-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
