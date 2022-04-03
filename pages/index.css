@@ -26,3 +26,16 @@
 @import url(../blocks/lab-card/lab-card__button/lab-card__button.css);
 @import url(../blocks/lab-card/lab-card__header/lab-card__header.css);
 @import url(../blocks/lab-card/lab-card__icon/lab-card__icon.css);
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__button-back/about__button-back.css);
+@import url(../blocks/about/__news/about__news.css);
+@import url(../blocks/about/__news-block/about__news-block.css);
+@import url(../blocks/about/__news-item/about__news-item.css);
+@import url(../blocks/about/__news-date/about__news-date.css);
+@import url(../blocks/about/__news-header/about__news-header.css);
+@import url(../blocks/about/__news-pin/about__news-pin.css);
+@import url(../blocks/about/__news-text/about__news-text.css);
+@import url(../blocks/about/__button-forward/about__button-forward.css)
