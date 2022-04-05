@@ -48,3 +48,31 @@
 @import url(../blocks/lab-card-popup/__image/lab-card-popup__image.css);
 @import url(../blocks/lab-card-popup/__cross/lab-card-popup__cross.css);
 @import url(../blocks/lab-card-popup/__texts/lab-card-popup__texts.css);
+/* form */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__header/form__header.css);
+@import url(../blocks/form/__description/form__description.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__content/form__content.css);
+@import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__message/form__message.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__dev/footer__dev.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__powered-by/footer__powered-by.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_sn/footer__link_sn_facebook.css);
+@import url(../blocks/footer/__link/_sn/footer__link_sn_insta.css);
+@import url(../blocks/footer/__link/_sn/footer__link_sn_telegram.css);
+@import url(../blocks/footer/__link/_sn/footer__link_sn_vk.css);
+@import url(../blocks/footer/__link/_sn/footer__link_sn_youtube.css);
+@import url(../blocks/footer/__text-link/footer__text-link.css);
+@import url(../blocks/footer/__link-header/footer__link-header.css);
+@import url(../blocks/footer/__link-header/_larger/footer__link-header_larger.css);

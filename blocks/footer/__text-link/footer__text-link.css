@@ -1,0 +1,14 @@
+.footer__text-link{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: inherit;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .footer__text-link{
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
