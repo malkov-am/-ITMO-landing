@@ -76,3 +76,24 @@
 @import url(../blocks/footer/__text-link/footer__text-link.css);
 @import url(../blocks/footer/__link-header/footer__link-header.css);
 @import url(../blocks/footer/__link-header/_larger/footer__link-header_larger.css);
+/* section-header */
+@import url(../blocks/section-header/_dark/section-header_dark.css);
+@import url(../blocks/section-header/_light/section-header_light.css);
+@import url(../blocks/section-header/section-header.css);
+@import url(../blocks/section-header/_education/section-header_education.css);
+/* section-paragraph */
+@import url(../blocks/section-paragraph/_dark/section-paragraph_dark.css);
+@import url(../blocks/section-paragraph/_light/section-paragraph_light.css);
+@import url(../blocks/section-paragraph/section-paragraph.css);
+@import url(../blocks/section-paragraph/_education/section-paragraph_education.css);
+/* education */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__article/education__article.css);
+@import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__programs/education__programs.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__content/education__content.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__tab-input/education__tab-input.css);
+@import url(../blocks/education/__tab-btn/education__tab-btn.css);
+@import url(../blocks/education/__tab-label/education__tab-label.css);
