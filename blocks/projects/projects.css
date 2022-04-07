@@ -1,0 +1,5 @@
+.projects{
+  color: var(--font-light);
+  padding: 40px 16px;
+  box-sizing: border-box;
+}

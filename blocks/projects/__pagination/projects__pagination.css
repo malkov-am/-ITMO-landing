@@ -1,0 +1,7 @@
+.projects__pagination{
+  position: static;
+  /* background: white; */
+}
+.swiper-pagination-bullet{
+  background-color: white;
+}

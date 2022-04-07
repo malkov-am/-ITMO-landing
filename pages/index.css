@@ -97,3 +97,15 @@
 @import url(../blocks/education/__tab-input/education__tab-input.css);
 @import url(../blocks/education/__tab-btn/education__tab-btn.css);
 @import url(../blocks/education/__tab-label/education__tab-label.css);
+/* projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__header/projects__header.css);
+@import url(../blocks/projects/__select/projects__select.css);
+@import url(../blocks/projects/__options/projects__options.css);
+@import url(../blocks/projects/__options/_opened/projects__options_opened.css);
+@import url(../blocks/projects/__option/projects__option.css);
+@import url(../blocks/projects/__radio-btn/projects__radio-btn.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__wrapper/projects__wrapper.css);
+@import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__card/_hidden/projects__card_hidden.css);

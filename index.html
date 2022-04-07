@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>Industrial AI research lab</title>
@@ -14,22 +15,22 @@
       <ul class="menu-bar__nav">
         <li><a href="#" class="menu-bar__nav-link">О нас</a></li>
         <li><a href="#lab" class="menu-bar__nav-link">Лаборатория</a></li>
-        <li><a href="#" class="menu-bar__nav-link">Проекты</a></li>
+        <li><a href="#projects" class="menu-bar__nav-link">Проекты</a></li>
         <li><a href="#education" class="menu-bar__nav-link">Образование</a></li>
         <li><a href="#" class="menu-bar__nav-link">Публикации</a></li>
         <li><a href="#" class="menu-bar__nav-link">Команда</a></li>
-        <li><a href="#" class="menu-bar__nav-link">Связаться</a></li>
+        <li><a href="#form" class="menu-bar__nav-link">Связаться</a></li>
       </ul>
     </div>
     <header class="header">
       <ul class="menu-bar__burgernav">
         <li><a href="#" class="menu-bar__burgernav-link">О нас</a></li>
         <li><a href="#lab" class="menu-bar__burgernav-link">Лаборатория</a></li>
-        <li><a href="#" class="menu-bar__burgernav-link">Проекты</a></li>
-        <li><a href="#" class="menu-bar__burgernav-link">Образование</a></li>
+        <li><a href="#projects" class="menu-bar__burgernav-link">Проекты</a></li>
+        <li><a href="#education" class="menu-bar__burgernav-link">Образование</a></li>
         <li><a href="#" class="menu-bar__burgernav-link">Публикации</a></li>
         <li><a href="#" class="menu-bar__burgernav-link">Команда</a></li>
-        <li><a href="#" class="menu-bar__burgernav-link">Связаться</a></li>
+        <li><a href="#form" class="menu-bar__burgernav-link">Связаться</a></li>
       </ul>
       <div class="header__container">
         <h1 class="header__title">
@@ -139,6 +140,40 @@
       </div>
     </section>
 
+    <section class="projects" id="projects">
+      <h2 class="projects__header">НАШИ ПРОЕКТЫ</h2>
+      <div class="projects__select">Все проекты</div>
+      <div class="projects__options">
+        <input type="radio" name="filter" id="filter-all" class="projects__radio-btn" checked>
+        <label for="filter-all" class="projects__option">Все проекты</label>
+        <input type="radio" name="filter" id="filter-gos" class="projects__radio-btn">
+        <label for="filter-gos" class="projects__option">Гос. проекты</label>
+        <input type="radio" name="filter" id="filter-spec" class="projects__radio-btn">
+        <label for="filter-spec" class="projects__option">Спецпрограммы</label>
+        <input type="radio" name="filter" id="filter-dev" class="projects__radio-btn">
+        <label for="filter-dev" class="projects__option">В разработке</label>
+      </div>
+      <div class="swiper projects__slider">
+        <div class="swiper-wrapper projects__wrapper">
+          <div class="projects__card swiper-slide filter-gos">1</div>
+          <div class="projects__card swiper-slide filter-gos">2</div>
+          <div class="projects__card swiper-slide filter-gos">3</div>
+          <div class="projects__card swiper-slide filter-dev">4</div>
+          <div class="projects__card swiper-slide filter-dev">5</div>
+          <div class="projects__card swiper-slide filter-dev">6</div>
+          <div class="projects__card swiper-slide filter-gos">7</div>
+          <div class="projects__card swiper-slide filter-spec">8</div>
+          <div class="projects__card swiper-slide filter-gos">9</div>
+          <div class="projects__card swiper-slide filter-dev">10</div>
+          <div class="projects__card swiper-slide filter-gos">11</div>
+          <div class="projects__card swiper-slide filter-spec">12</div>
+        </div>
+        <div class="projects__pagination swiper-pagination"></div>
+        <div class="projects__prev swiper-slide-prev"></div>
+        <div class="projects__next swiper-slide-next"></div>
+      </div>
+    </section>
+
     <section class="education" id="education">
       <h2 class="section-header section-header_light section-header_education">
         Образование
@@ -224,7 +259,7 @@
       </div>
     </section>
 
-    <section class="form">
+    <section class="form" id="form">
       <h2 class="form__header">ВСЕГДА НА СВЯЗИ</h2>
       <p class="form__description">
         По всем интересующим вас вопросам вы всегда можете обратиться по
@@ -250,11 +285,12 @@
           required
         />
         <input
-          type="number"
+          type="tel"
           name=""
           id=""
           class="form__input form__phone"
           placeholder="Телефон"
+          pattern="[0-9]{2,11}"
           required
         />
         <input
@@ -372,5 +408,9 @@
     </div>
     <script src="./src/researchlab.js"></script>
     <script src="./src/menu-bar.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/projects/select.js"></script>
+    <script src="./src/projects/slider.js"></script>
+    <script src="./src/projects/filter.js"></script>
   </body>
 </html>
