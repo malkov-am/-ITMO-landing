@@ -108,4 +108,15 @@
 @import url(../blocks/projects/__card/projects__card.css);
 @import url(../blocks/projects/__wrapper/projects__wrapper.css);
 @import url(../blocks/projects/__pagination/projects__pagination.css);
+@import url(../blocks/projects/__pagination/_bullet/projects__pagination_bullet.css);
 @import url(../blocks/projects/__card/_hidden/projects__card_hidden.css);
+@import url(../blocks/projects/__card/_gos/projects__card_gos.css);
+@import url(../blocks/projects/__card-logo/projects__card-logo.css);
+@import url(../blocks/projects/__card-logo/_gazprom/projects__card-logo_gazprom.css);
+@import url(../blocks/projects/__card-logo/_sberbank/projects__card-logo_sberbank.css);
+@import url(../blocks/projects/__nav/projects__nav.css);
+@import url(../blocks/projects/__nav-btn/projects__nav-btn.css);
+@import url(../blocks/projects/__prev/projects__prev.css);
+@import url(../blocks/projects/__next/projects__next.css);
+@import url(../blocks/projects/__card-link/projects__card-lin.css);
+@import url(../blocks/projects/__card-text/projects__card-text.css);

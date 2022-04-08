@@ -144,33 +144,31 @@
       <h2 class="projects__header">НАШИ ПРОЕКТЫ</h2>
       <div class="projects__select">Все проекты</div>
       <div class="projects__options">
-        <input type="radio" name="filter" id="filter-all" class="projects__radio-btn" checked>
-        <label for="filter-all" class="projects__option">Все проекты</label>
-        <input type="radio" name="filter" id="filter-gos" class="projects__radio-btn">
-        <label for="filter-gos" class="projects__option">Гос. проекты</label>
-        <input type="radio" name="filter" id="filter-spec" class="projects__radio-btn">
-        <label for="filter-spec" class="projects__option">Спецпрограммы</label>
-        <input type="radio" name="filter" id="filter-dev" class="projects__radio-btn">
-        <label for="filter-dev" class="projects__option">В разработке</label>
+        <input type="radio" name="filter" id="projects__card_all" class="projects__radio-btn" checked>
+        <label for="projects__card_all" class="projects__option">Все проекты</label>
+        <input type="radio" name="filter" id="projects__card_gos" class="projects__radio-btn">
+        <label for="projects__card_gos" class="projects__option">Гос. проекты</label>
+        <input type="radio" name="filter" id="projects__card_spec" class="projects__radio-btn">
+        <label for="projects__card_spec" class="projects__option">Спецпрограммы</label>
+        <input type="radio" name="filter" id="projects__card_dev" class="projects__radio-btn">
+        <label for="projects__card_dev" class="projects__option">В разработке</label>
       </div>
       <div class="swiper projects__slider">
         <div class="swiper-wrapper projects__wrapper">
-          <div class="projects__card swiper-slide filter-gos">1</div>
-          <div class="projects__card swiper-slide filter-gos">2</div>
-          <div class="projects__card swiper-slide filter-gos">3</div>
-          <div class="projects__card swiper-slide filter-dev">4</div>
-          <div class="projects__card swiper-slide filter-dev">5</div>
-          <div class="projects__card swiper-slide filter-dev">6</div>
-          <div class="projects__card swiper-slide filter-gos">7</div>
-          <div class="projects__card swiper-slide filter-spec">8</div>
-          <div class="projects__card swiper-slide filter-gos">9</div>
-          <div class="projects__card swiper-slide filter-dev">10</div>
-          <div class="projects__card swiper-slide filter-gos">11</div>
-          <div class="projects__card swiper-slide filter-spec">12</div>
         </div>
-        <div class="projects__pagination swiper-pagination"></div>
-        <div class="projects__prev swiper-slide-prev"></div>
-        <div class="projects__next swiper-slide-next"></div>
+        <template id="projects__card">
+          <div class="projects__card swiper-slide">
+            <div class="projects__card-logo"></div>
+            <p class="projects__card-text"></p>
+            <a href="#" class="projects__card-link">Подробнее &rarr;</a>
+          </div>
+        </template>
+        <div class="projects__nav">
+          <div class="swiper-button-prev projects__nav-btn projects__prev">&larr;</div>
+          <div class="projects__pagination swiper-pagination"></div>
+          <div class="swiper-button-next projects__nav-btn projects__next">&rarr;</div>
+        </div>
+        
       </div>
     </section>
 
@@ -409,6 +407,8 @@
     <script src="./src/researchlab.js"></script>
     <script src="./src/menu-bar.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/projects/initialCards.js"></script>
+    <script src="./src/projects/createCards.js"></script>
     <script src="./src/projects/select.js"></script>
     <script src="./src/projects/slider.js"></script>
     <script src="./src/projects/filter.js"></script>

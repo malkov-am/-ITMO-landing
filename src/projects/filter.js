@@ -1,25 +1,35 @@
 const radioButtons = document.querySelectorAll(".projects__radio-btn");
 const projectCards = document.querySelectorAll(".projects__card");
-console.log(projectCards);
+const projectsWrapper = document.querySelector(".projects__wrapper");
+
 radioButtons.forEach((radio) => {
   radio.addEventListener("change", filterHandler);
 });
+
+let removedSlides = [];
+
+function appendSlides(slides) {
+  while (slides.length > 0) {
+    projectsWrapper.prepend(slides.pop());
+  }
+}
 function filterHandler(event) {
-  // console.log(event.target);
-  console.log(event.target.id);
+  appendSlides(removedSlides);
+
   const filterId = event.target.id;
+
   projectCards.forEach((card) => {
-    // card.classList.remove(".projects__card_hidden");
-    // console.log(card.classList.contains(`${event.target.id}`));
-    isToShow =
-      filterId == "filter-all" ||
-      !(card.classList.contains(`${event.target.id}`));
-    if (isToShow) {
-      console.log('show');
-      card.classList.remove("projects__card_hidden");
+    const isToHide = !card.classList.contains(`${event.target.id}`);
+    const isToShow = filterId == "projects__card_all";
+
+    if (isToHide && !isToShow) {
+      removedSlides.push(card);
+      card.remove();
+      console.log("hide");
     } else {
-      console.log('hidden');
-      card.classList.add("projects__card_hidden");
+      console.log("show");
+      removedSlides.push(card);
     }
   });
+  swiper.update();
 }

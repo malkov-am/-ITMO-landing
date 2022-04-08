@@ -6,7 +6,7 @@ const selectMenu = document.querySelector(".projects__select");
 const radioGrid = document.querySelector(".projects__options");
 const projectsOptions = document.querySelectorAll(".projects__option");
 const size = window.matchMedia("(min-width: 700px)");
-console.log(projectsOptions);
+
 selectMenu.addEventListener("click", (event) => {
   radioGrid.classList.toggle("projects__options_opened");
 });
@@ -16,7 +16,6 @@ projectsOptions.forEach((option) => {
       radioGrid.classList.toggle("projects__options_opened");
     }
     selectMenu.textContent = event.target.textContent;
-    // console.log(event.target.htmlFor);
   });
 });
 
