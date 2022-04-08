@@ -25,9 +25,7 @@ function filterHandler(event) {
     if (isToHide && !isToShow) {
       removedSlides.push(card);
       card.remove();
-      console.log("hide");
     } else {
-      console.log("show");
       removedSlides.push(card);
     }
   });
