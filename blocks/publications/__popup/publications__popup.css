@@ -1,0 +1,23 @@
+.publications__popup {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -57px;
+  right: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 17px;
+  border-radius: 8px;
+}
+
+.publications__popup::after {
+  display: block;
+  content: '';
+  background-image: url(../../../images/publications/publications-popup-window.svg);
+  width: 15px;
+  height: 8px;
+  position: absolute;
+  bottom: -8px;
+  right: 10px;
+}

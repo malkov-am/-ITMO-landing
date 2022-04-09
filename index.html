@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
     <title>Industrial AI research lab</title>
@@ -26,8 +29,12 @@
       <ul class="menu-bar__burgernav">
         <li><a href="#" class="menu-bar__burgernav-link">О нас</a></li>
         <li><a href="#lab" class="menu-bar__burgernav-link">Лаборатория</a></li>
-        <li><a href="#projects" class="menu-bar__burgernav-link">Проекты</a></li>
-        <li><a href="#education" class="menu-bar__burgernav-link">Образование</a></li>
+        <li>
+          <a href="#projects" class="menu-bar__burgernav-link">Проекты</a>
+        </li>
+        <li>
+          <a href="#education" class="menu-bar__burgernav-link">Образование</a>
+        </li>
         <li><a href="#" class="menu-bar__burgernav-link">Публикации</a></li>
         <li><a href="#" class="menu-bar__burgernav-link">Команда</a></li>
         <li><a href="#form" class="menu-bar__burgernav-link">Связаться</a></li>
@@ -144,18 +151,46 @@
       <h2 class="projects__header">НАШИ ПРОЕКТЫ</h2>
       <div class="projects__select">Все проекты</div>
       <div class="projects__options">
-        <input type="radio" name="filter" id="projects__card_all" class="projects__radio-btn" checked>
-        <label for="projects__card_all" class="projects__option">Все проекты</label>
-        <input type="radio" name="filter" id="projects__card_gos" class="projects__radio-btn">
-        <label for="projects__card_gos" class="projects__option">Гос. проекты</label>
-        <input type="radio" name="filter" id="projects__card_spec" class="projects__radio-btn">
-        <label for="projects__card_spec" class="projects__option">Спецпрограммы</label>
-        <input type="radio" name="filter" id="projects__card_dev" class="projects__radio-btn">
-        <label for="projects__card_dev" class="projects__option">В разработке</label>
+        <input
+          type="radio"
+          name="filter"
+          id="projects__card_all"
+          class="projects__radio-btn"
+          checked
+        />
+        <label for="projects__card_all" class="projects__option"
+          >Все проекты</label
+        >
+        <input
+          type="radio"
+          name="filter"
+          id="projects__card_gos"
+          class="projects__radio-btn"
+        />
+        <label for="projects__card_gos" class="projects__option"
+          >Гос. проекты</label
+        >
+        <input
+          type="radio"
+          name="filter"
+          id="projects__card_spec"
+          class="projects__radio-btn"
+        />
+        <label for="projects__card_spec" class="projects__option"
+          >Спецпрограммы</label
+        >
+        <input
+          type="radio"
+          name="filter"
+          id="projects__card_dev"
+          class="projects__radio-btn"
+        />
+        <label for="projects__card_dev" class="projects__option"
+          >В разработке</label
+        >
       </div>
       <div class="swiper projects__slider">
-        <div class="swiper-wrapper projects__wrapper">
-        </div>
+        <div class="swiper-wrapper projects__wrapper"></div>
         <template id="projects__card">
           <div class="projects__card swiper-slide">
             <div class="projects__card-logo"></div>
@@ -164,11 +199,14 @@
           </div>
         </template>
         <div class="projects__nav">
-          <div class="swiper-button-prev projects__nav-btn projects__prev">&larr;</div>
+          <div class="swiper-button-prev projects__nav-btn projects__prev">
+            &larr;
+          </div>
           <div class="projects__pagination swiper-pagination"></div>
-          <div class="swiper-button-next projects__nav-btn projects__next">&rarr;</div>
+          <div class="swiper-button-next projects__nav-btn projects__next">
+            &rarr;
+          </div>
         </div>
-        
       </div>
     </section>
 
@@ -200,60 +238,103 @@
         id="education__tab-input-mag"
         class="education__tab-input"
       />
-        <article class="education__article education__article-asp">
-          <img
-            class="education__img"
-            src="./images/education/education-aspirant.jpg"
-            alt="Фото группы студентов на вручении дипломов"
-          />
-          <div class="education__content">
-            <h3 class="education__title">
-              Образовательные программы аспирантуры в области МО и КТ
-            </h3>
-            <ul class="education__programs">
-              <li>Прикладные технологии искусственного интеллекта</li>
-              <li>Машинное обучение и искусственный интеллект</li>
-              <li>Биометрические информационные системы</li>
-              <li>Речевые информационные системы</li>
-              <li>Когнитивные вычисления и квантовый интеллект</li>
-              <li>Большие данные и экстренные вычисления</li>
-              <li>Семантические системы и инженерия знаний</li>
-              <li>Технологии разработки компьютерных игр</li>
-            </ul>
-            <a class="education__link" href="#">Подробнее</a>
-          </div>
-        </article>
-        <article class="education__article education__article-mag">
-          <img
-            class="education__img"
-            src="./images/education/education-magistr.jpg"
-            alt="Фото двоих студентов на лабораторной работе"
-          />
-          <div class="education__content">
-            <h3 class="education__title">
-              Образовательные программы магистратуры в области МО и КТ
-            </h3>
-            <ul class="education__programs">
-              <li>Прикладные технологии искусственного интеллекта</li>
-              <li>Машинное обучение и искусственный интеллект</li>
-              <li>Биометрические информационные системы</li>
-              <li>Речевые информационные системы</li>
-              <li>Когнитивные вычисления и квантовый интеллект</li>
-              <li>Большие данные и экстренные вычисления</li>
-              <li>Семантические системы и инженерия знаний</li>
-              <li>Технологии разработки компьютерных игр</li>
-            </ul>
-            <a class="education__link" href="#">Подробнее</a>
-          </div>
-        </article>
-        <div class="education__tab-btn">
-          <label for="education__tab-input-asp" class="education__tab-label"
-            >Аспирантура</label
-          >
-          <label for="education__tab-input-mag" class="education__tab-label"
-            >Магистратура</label
-          >
+      <article class="education__article education__article-asp">
+        <img
+          class="education__img"
+          src="./images/education/education-aspirant.jpg"
+          alt="Фото группы студентов на вручении дипломов"
+        />
+        <div class="education__content">
+          <h3 class="education__title">
+            Образовательные программы аспирантуры в области МО и КТ
+          </h3>
+          <ul class="education__programs">
+            <li>Прикладные технологии искусственного интеллекта</li>
+            <li>Машинное обучение и искусственный интеллект</li>
+            <li>Биометрические информационные системы</li>
+            <li>Речевые информационные системы</li>
+            <li>Когнитивные вычисления и квантовый интеллект</li>
+            <li>Большие данные и экстренные вычисления</li>
+            <li>Семантические системы и инженерия знаний</li>
+            <li>Технологии разработки компьютерных игр</li>
+          </ul>
+          <a class="education__link" href="#">Подробнее</a>
         </div>
+      </article>
+      <article class="education__article education__article-mag">
+        <img
+          class="education__img"
+          src="./images/education/education-magistr.jpg"
+          alt="Фото двоих студентов на лабораторной работе"
+        />
+        <div class="education__content">
+          <h3 class="education__title">
+            Образовательные программы магистратуры в области МО и КТ
+          </h3>
+          <ul class="education__programs">
+            <li>Прикладные технологии искусственного интеллекта</li>
+            <li>Машинное обучение и искусственный интеллект</li>
+            <li>Биометрические информационные системы</li>
+            <li>Речевые информационные системы</li>
+            <li>Когнитивные вычисления и квантовый интеллект</li>
+            <li>Большие данные и экстренные вычисления</li>
+            <li>Семантические системы и инженерия знаний</li>
+            <li>Технологии разработки компьютерных игр</li>
+          </ul>
+          <a class="education__link" href="#">Подробнее</a>
+        </div>
+      </article>
+      <div class="education__tab-btn">
+        <label for="education__tab-input-asp" class="education__tab-label"
+          >Аспирантура</label
+        >
+        <label for="education__tab-input-mag" class="education__tab-label"
+          >Магистратура</label
+        >
+      </div>
+    </section>
+
+    <section class="publications">
+      <h2
+        class="section-header section-header_dark section-header_publications"
+      >
+        Публикации
+      </h2>
+      <div class="swiper publications__slider">
+        <div class="swiper-wrapper publications__wrapper">
+          <template id="publications__card">
+            <div class="swiper-slide publications__card">
+              <div class="publications__card-content">
+                <img class="publications__card-img" />
+                <h3 class="publications__card-title"></h3>
+                <p class="publications__card-authors"></p>
+                <p class="publications__card-article"></p>
+              </div>
+              <div class="publications__card-bar">
+                <div class="publications__popup">
+                  <div class="likely">
+                    <div class="vkontakte"></div>
+                    <div class="facebook"></div>
+                    <div class="telegram"></div>
+                    <div class="whatsapp"></div>
+                  </div>
+                </div>
+                <a
+                  class="publications__card-link"
+                  target="_blank"
+                  rel="noopener"
+                  >Читать полностью</a
+                >
+                <button class="publications__card-share-btn"></button>
+              </div>
+            </div>
+          </template>
+        </div>
+      </div>
+      <div class="publications__button-prev"></div>
+      <div class="publications__button-next"></div>
+      <div class="publications__nav">
+        <div class="publications__pagination swiper-pagination"></div>
       </div>
     </section>
 
@@ -331,7 +412,9 @@
         </ul>
         <ul class="footer__dev">
           <span class="footer__link-header">Развитие</span>
-          <li><a href="#education" class="footer__text-link">Образование</a></li>
+          <li>
+            <a href="#education" class="footer__text-link">Образование</a>
+          </li>
           <li><a href="#" class="footer__text-link">Аспирантура</a></li>
           <li><a href="#" class="footer__text-link">Магистратура</a></li>
           <li><a href="#" class="footer__text-link">Публикации</a></li>
@@ -412,5 +495,8 @@
     <script src="./src/projects/select.js"></script>
     <script src="./src/projects/slider.js"></script>
     <script src="./src/projects/filter.js"></script>
+    <script src="./src/publications/publications.js"></script>
+    <script src="./src/publications/slider.js"></script>
+    <script src="./vendor/likely/likely.js"></script>
   </body>
 </html>
