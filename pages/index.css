@@ -81,6 +81,7 @@
 @import url(../blocks/section-header/_light/section-header_light.css);
 @import url(../blocks/section-header/section-header.css);
 @import url(../blocks/section-header/_education/section-header_education.css);
+@import url(../blocks/section-header/_publications/section-header_publications.css);
 /* section-paragraph */
 @import url(../blocks/section-paragraph/_dark/section-paragraph_dark.css);
 @import url(../blocks/section-paragraph/_light/section-paragraph_light.css);
@@ -120,3 +121,25 @@
 @import url(../blocks/projects/__next/projects__next.css);
 @import url(../blocks/projects/__card-link/projects__card-lin.css);
 @import url(../blocks/projects/__card-text/projects__card-text.css);
+/* publications */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__card-article/publications__card-article.css);
+@import url(../blocks/publications/__card-authors/publications__card-authors.css);
+@import url(../blocks/publications/__card-bar/publications__card-bar.css);
+@import url(../blocks/publications/__card-img/publications__card-img.css);
+@import url(../blocks/publications/__card-share-btn/publications__card-share-btn.css);
+@import url(../blocks/publications/__card-title/publications__card-title.css);
+@import url(../blocks/publications/__card/publications__card.css);
+@import url(../blocks/publications/__card-content/publications__card-content.css);
+@import url(../blocks/publications/__card-link/publications__card-link.css);
+@import url(../blocks/publications/__bullet/publications__bullet.css);
+@import url(../blocks/publications/__bullet/_active/publications__bullet_active.css);
+@import url(../blocks/publications/__nav/publications__nav.css);
+@import url(../blocks/publications/__button-prev/publications__button-prev.css);
+@import url(../blocks/publications/__button-next/publications__button-next.css);
+@import url(../blocks/publications/__slider/publications__slider.css);
+@import url(../blocks/publications/__pagination/publications__pagination.css);
+@import url(../blocks/publications/__popup/publications__popup.css);
+@import url(../blocks/publications/__popup/_active/publications__popup_active.css);
+/* Likely */
+@import url(../vendor/likely/likely.css);
