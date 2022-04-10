@@ -1,0 +1,7 @@
+.menu-bar__dropdown {
+  position: relative;
+}
+
+.menu-bar__dropdown:hover .menu-bar__dropdown-content {
+  visibility: visible;
+}

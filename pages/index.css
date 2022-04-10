@@ -13,6 +13,10 @@
 @import url(../blocks/menu-bar/__burger-btn/_opened/menu-bar__burger-btn_opened.css);
 @import url(../blocks/menu-bar/__burgernav/_opened/menu-bar__burgernav_opened.css);
 @import url(../blocks/menu-bar/_opened/menu-bar_opened.css);
+@import url(../blocks/menu-bar/__dropdown/menu-bar__dropdown.css);
+@import url(../blocks/menu-bar/__dropdown-btn/menu-bar__dropdown-btn.css);
+@import url(../blocks/menu-bar/__dropdown-content/menu-bar__dropdown-content.css);
+@import url(../blocks/menu-bar/__dropdown-link/menu-bar__dropdown-link.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
