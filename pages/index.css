@@ -143,3 +143,4 @@
 @import url(../blocks/publications/__popup/_active/publications__popup_active.css);
 /* Likely */
 @import url(../vendor/likely/likely.css);
+@import url(../blocks/likely/__widget/likely__widget.css);

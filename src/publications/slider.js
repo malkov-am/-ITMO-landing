@@ -74,12 +74,15 @@ function toggleSmPopup(evt) {
   const smPopup = evt.target
     .closest(".publications__card")
     .querySelector(".publications__popup");
+  const currentCard = evt.target.closest(".publications__card");
 
   if (!smPopup.classList.contains("publications__popup_active")) {
     smPopup.classList.add("publications__popup_active");
     smPopup.addEventListener("click", toggleSmPopup);
+    currentCard.addEventListener("mouseleave", toggleSmPopup);
   } else {
     smPopup.classList.remove("publications__popup_active");
     smPopup.removeEventListener("click", toggleSmPopup);
+    currentCard.removeEventListener("mouseleave", toggleSmPopup);
   }
 }
