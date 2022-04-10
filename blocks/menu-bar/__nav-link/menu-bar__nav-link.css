@@ -9,6 +9,7 @@
   font-weight: 400;
   color: var(--font-light);
   text-decoration: none;
+  box-sizing: content-box;
 }
 
 .menu-bar__nav-link:hover {
