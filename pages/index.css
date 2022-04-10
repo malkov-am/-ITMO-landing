@@ -17,6 +17,12 @@
 @import url(../blocks/menu-bar/__dropdown-btn/menu-bar__dropdown-btn.css);
 @import url(../blocks/menu-bar/__dropdown-content/menu-bar__dropdown-content.css);
 @import url(../blocks/menu-bar/__dropdown-link/menu-bar__dropdown-link.css);
+@import url(../blocks/menu-bar/__burger-dropdown/menu-bar__burger-dropdown.css);
+@import url(../blocks/menu-bar/__burgernav-dropdown-btn/menu-bar__burgernav-dropdown-btn.css);
+@import url(../blocks/menu-bar/__burgernav-dropdown-btn/_active/menu-bar__burgernav-dropdown-btn_active.css);
+@import url(../blocks/menu-bar/__burgernav-dropdown-content/menu-bar__burgernav-dropdown-content.css);
+@import url(../blocks/menu-bar/__burgernav-dropdown-content/_active/menu-bar__burgernav-dropdown-content_active.css);
+@import url(../blocks/menu-bar/__burgernav-dropdown-link/menu-bar__burgernav-dropdown-link.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
